@@ -1,52 +1,66 @@
 # 0x-tokyo
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=00D4AA&width=500&lines=Python+Backend+Explorer;Building+one+commit+at+a+time...;Learning+%7C+Coding+%7C+Growing)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=00D4AA&width=500&lines=whoami+%3A+0x-tokyo;Backend+by+day%2C+offensive+by+night;TryHackMe+now+%E2%86%92+HackTheBox+next;root@target%3A~%23+_)](https://github.com/DenverCoder1/readme-typing-svg)
 
 ---
 
-## About me
+## $ whoami
 
-```python
-class Developer:
-    def __init__(self):
-        self.name       = "0x-tokyo"
-        self.role       = "Python Backend Explorer"
-        self.languages  = ["Russian", "English"]
-        self.tech_stack = ["Python", "Django", "Git", "Linux", "Bash"]  # learning...
-        self.goal       = "Become solid backend Python developer"
+```
+$ id
+uid=1337(0x-tokyo) gid=1337(operators) groups=backend,redteam,linux
 
-    def get_info(self):
-        print(f"Hey! I'm {self.name}")
-        print(f"Role:       {self.role}")
-        print(f"Languages:  {', '.join(self.languages)}")
-        stack = ', '.join(self.tech_stack) if self.tech_stack else "empty (learning)"
-        print(f"Tech stack: {stack}")
-        print(f"Goal:       {self.goal}")
+$ nmap -sV -p- localhost
 
-me = Developer()
-me.get_info()
+PORT      STATE     SERVICE    VERSION
+22/tcp    open      ssh        backend-dev (Python, Django)
+80/tcp    open      http       self-taught · career transition
+443/tcp   open      https      offensive-sec/training
+8080/tcp  open      linux      Arch · Hyprland · nvim · zsh
+9001/tcp  filtered  pentest    TryHackMe → HackTheBox (loading)
+
+Host script results:
+| scope:  authorized only — THM · HTB · own VPS · home lab
+| focus:  enumerate → exploit → document → patch
 ```
 
 ---
 
-## Stack
+## Recon in progress
 
-![Python](https://img.shields.io/badge/Python-1a1a1a?style=flat-square&logo=python&logoColor=00D4AA)
-![Git](https://img.shields.io/badge/Git-1a1a1a?style=flat-square&logo=git&logoColor=00D4AA)
-![GitHub](https://img.shields.io/badge/GitHub-1a1a1a?style=flat-square&logo=github&logoColor=00D4AA)
-![Linux](https://img.shields.io/badge/Linux-1a1a1a?style=flat-square&logo=linux&logoColor=00D4AA)
-![Neovim](https://img.shields.io/badge/Neovim-1a1a1a?style=flat-square&logo=neovim&logoColor=00D4AA)
-![Django](https://img.shields.io/badge/Django-1a1a1a?style=flat-square&logo=django&logoColor=00D4AA)
-![Hyprland](https://img.shields.io/badge/Hyprland-1a1a1a?style=flat-square&logo=hyprland&logoColor=00D4AA)
-
+```
+[+] python      ▓▓▓▓▓▓▓▓░░  basics done → OOP → sockets
+[+] django      ▓▓▓▓▓░░░░░  learning_log · Blog · pizzeria
+[+] linux       ▓▓▓▓▓▓▓░░░  sysadmin, hardening, Wayland ricing
+[+] networking  ▓▓▓▓▓▓░░░░  DORA · ARP · routing · NAT · DNS
+[+] pentest     ▓▓▓░░░░░░░  TryHackMe: net fundamentals, Win/PS
+```
 
 ---
 
-## Contact
+## Arsenal
+
+![Python](https://img.shields.io/badge/Python-1a1a1a?style=flat-square&logo=python&logoColor=00D4AA)
+![Django](https://img.shields.io/badge/Django-1a1a1a?style=flat-square&logo=django&logoColor=00D4AA)
+![Bash](https://img.shields.io/badge/Bash-1a1a1a?style=flat-square&logo=gnubash&logoColor=00D4AA)
+![Linux](https://img.shields.io/badge/Linux-1a1a1a?style=flat-square&logo=linux&logoColor=00D4AA)
+![Arch](https://img.shields.io/badge/Arch-1a1a1a?style=flat-square&logo=archlinux&logoColor=00D4AA)
+![Neovim](https://img.shields.io/badge/Neovim-1a1a1a?style=flat-square&logo=neovim&logoColor=00D4AA)
+![Hyprland](https://img.shields.io/badge/Hyprland-1a1a1a?style=flat-square&logo=hyprland&logoColor=00D4AA)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-1a1a1a?style=flat-square&logo=burpsuite&logoColor=00D4AA)
+
+---
+
+## Uplink
 
 [![Telegram](https://img.shields.io/badge/@iiinnss-1a1a1a?style=flat-square&logo=telegram&logoColor=00D4AA)](https://t.me/iiinnss)
-[![Email](https://img.shields.io/badge/Email-0078D4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:isergeeva_@outlook.com)
+[![Email](https://img.shields.io/badge/Email-1a1a1a?style=flat-square&logo=microsoft-outlook&logoColor=00D4AA)](mailto:isergeeva_@outlook.com)
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=wnchstrr&color=00d4aa&style=flat-square&label=views"/>
+  <img src="https://komarev.com/ghpvc/?username=0x-tokyo&color=00d4aa&style=flat-square&label=recon+hits"/>
 </p>
+
+```
+> everything here is legal, authorized, lab-only.
+> break your own boxes, not other people's.
+```
