@@ -32,7 +32,7 @@ Host script results:
 [+] python      ▓▓▓▓▓▓▓▓░░  basics done → OOP → sockets
 [+] django      ▓▓▓▓▓░░░░░  learning_log · Blog · pizzeria
 [+] linux       ▓▓▓▓▓▓▓░░░  sysadmin, hardening, Wayland ricing
-[+] networking  ▓▓▓▓▓▓░░░░  DORA · ARP · routing · NAT · DNS
+[+] networking  ▓▓▓▓▓▓░░░░  ARP · DNS · routing · Wireshark analysis
 [+] pentest     ▓▓▓░░░░░░░  TryHackMe: net fundamentals, Win/PS
 ```
 
@@ -47,6 +47,7 @@ Host script results:
 ![Arch](https://img.shields.io/badge/Arch-1a1a1a?style=flat-square&logo=archlinux&logoColor=00D4AA)
 ![Neovim](https://img.shields.io/badge/Neovim-1a1a1a?style=flat-square&logo=neovim&logoColor=00D4AA)
 ![Hyprland](https://img.shields.io/badge/Hyprland-1a1a1a?style=flat-square&logo=hyprland&logoColor=00D4AA)
+![Wireshark](https://img.shields.io/badge/Wireshark-1a1a1a?style=flat-square&logo=wireshark&logoColor=00D4AA)
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-1a1a1a?style=flat-square&logo=burpsuite&logoColor=00D4AA)
 
 ---
